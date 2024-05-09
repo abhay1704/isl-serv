@@ -1,0 +1,1 @@
+assets/model_resnet50_2.pth filter=lfs diff=lfs merge=lfs -text
