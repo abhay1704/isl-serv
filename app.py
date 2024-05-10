@@ -4,7 +4,7 @@ from flask import request
 from utils import load_model, process, predict_1
 
 app = Flask(__name__)
-
+CORS(app)
 
 __model__ = None
 __idx_to_class__ = None
